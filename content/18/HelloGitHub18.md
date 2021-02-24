@@ -1,7 +1,8 @@
 # 《HelloGitHub》第 18 期
 >兴趣是最好的老师，**HelloGitHub** 就是帮你找到兴趣！
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg)
+<p align="center">
+    <img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg' style="max-width:100%;"></img>
+</p>
 
 ## 简介
 分享 GitHub 上有趣、入门级的开源项目。
@@ -14,28 +15,53 @@
 
 在浏览、参与这些项目的过程中，你将学习到**更多编程知识**、**提高编程技巧**、**找到编程的乐趣**。
 
-🎉 最后 [HelloGitHub](https://hellogithub.com) 这个项目就诞生了 🎉
+🎉 最后 HelloGitHub 这个项目就诞生了 🎉
 
----
-> **以下为本期内容**｜每个月 **28** 号发布最新一期｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#内容)
+## 目录
+- [C 项目](#C-项目)
+- [CSS 项目](#CSS-项目)
+- [Go 项目](#Go-项目)
+- [Java 项目](#Java-项目)
+- [JavaScript 项目](#JavaScript-项目)
+- [PHP 项目](#PHP-项目)
+- [Python 项目](#Python-项目)
+- [其它](#其它)
+- [机器学习](#机器学习)
 
-#### C 项目
-1、[db_tutorial](https://github.com/cstack/db_tutorial)：用 C 从零创建一个简单的数据库
 
-#### CSS 项目
-2、[materialize](https://github.com/Dogfalo/materialize)：基于 Material Design 的现代响应式前端框架，简化了前端的开发，文档丰富。[官网](http://materializecss.com/)
+- [返回首页](https://github.com/521xueweihan/HelloGitHub#%E5%86%85%E5%AE%B9)
 
-#### Go 项目
-3、[tidb](https://github.com/pingcap/tidb)：开源分布式 NewSQL 数据库，能优雅的替换传统的数据库中间件、数据库分库分表等 Sharding 方案。具备如下核心特性：
+**Tips**：如果文中的图刷不出来，可以向我们[反馈](https://github.com/521xueweihan/HelloGitHub/issues/899)。也可以访问 [官网](https://hellogithub.com/) 获取更好的阅读体验。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/logo/weixin.png" style="max-width:30%;"></img><br>
+欢迎关注 HelloGitHub 公众号
+</p>
+
+## 内容
+> **以下为本期内容**｜每个月 **28** 号发布最新一期
+
+### C 项目
+1、[db_tutorial](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/cstack/db_tutorial)：用 C 从零创建一个简单的数据库
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### CSS 项目
+2、[materialize](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Dogfalo/materialize)：基于 Material Design 的现代响应式前端框架，简化了前端的开发，文档丰富。[官网](http://materializecss.com/)
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Go 项目
+3、[tidb](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/pingcap/tidb)：开源分布式 NewSQL 数据库，能优雅的替换传统的数据库中间件、数据库分库分表等 Sharding 方案。具备如下核心特性：
 - SQL支持 （TiDB 是 MySQL 兼容的）
 - 水平线性弹性扩展
 - 分布式事务
 - 跨数据中心数据强一致性保证
 - 故障自恢复的高可用
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/tidb-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/tidb-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-4、[echo](https://github.com/labstack/echo)：Go 语言最受欢迎的 Web 框架之一，具有：高性能、便于扩展、轻量的特点，示例代码：
+4、[echo](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/labstack/echo)：Go 语言最受欢迎的 Web 框架之一，具有：高性能、便于扩展、轻量的特点，示例代码：
 ```go
 package main
 
@@ -52,14 +78,16 @@ func callback(ctx echo.Context) error {
 }
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/echo-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/echo-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### Java 项目
-5、[AndroidTVLauncher](https://github.com/JackyAndroid/AndroidTVLauncher)：一个 TV Leanback 风格桌面，基于 Leanback 库开发，符合 Android TV 官方交互规范
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/AndroidTVLauncher-show-min.png)
+### Java 项目
+5、[AndroidTVLauncher](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/JackyAndroid/AndroidTVLauncher)：一个 TV Leanback 风格桌面，基于 Leanback 库开发，符合 Android TV 官方交互规范
 
-6、[spring-data-jpa-datatables](https://github.com/darrachequesne/spring-data-jpa-datatables)：spring-data-jpa 和 jQuery [datatables](https://www.datatables.net/) 集成工具。极大简化基于 datatables 数据表格的开发，示例代码：
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/AndroidTVLauncher-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
+
+6、[spring-data-jpa-datatables](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/darrachequesne/spring-data-jpa-datatables)：spring-data-jpa 和 jQuery [datatables](https://www.datatables.net/) 集成工具。极大简化基于 datatables 数据表格的开发，示例代码：
 ```
 // 前端代码
 $(document).ready(function() {
@@ -81,25 +109,27 @@ public DataTablesOutput<User> getUsers(@Valid @RequestBody DataTablesInput input
 }
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/spring-data-jpa-datatables-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/spring-data-jpa-datatables-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-7、[xxl-job](https://github.com/xuxueli/xxl-job)：轻量级分布式任务调度框架，其核心设计目标是：开发迅速、学习简单、轻量级、易扩展，文档齐全。[官网](http://www.xuxueli.com/xxl-job/)
+7、[xxl-job](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/xuxueli/xxl-job)：轻量级分布式任务调度框架，其核心设计目标是：开发迅速、学习简单、轻量级、易扩展，文档齐全。[官网](http://www.xuxueli.com/xxl-job/)
 
-#### JavaScript 项目
-8、[flatpickr](https://github.com/chmln/flatpickr)：扁平化的日期选择组件，项目源码使用 TypeScript 编写，可以学习使用 Typescript 编写 JS 插件，Typescript 语言的好处是：可以在多人协作中避免一些变量类型错误的问题，从而提高效率。使用示例代码：
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### JavaScript 项目
+8、[flatpickr](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/flatpickr/flatpickr)：扁平化的日期选择组件，项目源码使用 TypeScript 编写，可以学习使用 Typescript 编写 JS 插件，Typescript 语言的好处是：可以在多人协作中避免一些变量类型错误的问题，从而提高效率。使用示例代码：
 ```javascript
 // ConnonJS 方式引入
 const flatpickr = require("flatpickr");
 flatpickr("#myID", {});
-flatpickr(".myClass", {});
+flatpickr(".myClass", {}); 
 
 // jQuery 方式引入
 $(".selector").flatpickr(optional_config);
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/flatpickr-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/flatpickr-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-9、[vue-3d-model](https://github.com/hujiulong/vue-3d-model)：展示三维模型的 Vue 组件，支持模型操作和模型点击事件，能自动缩放模型到合适大小并校正偏移，目前支持 obj、stl、dae 和 json 格式的模型，示例代码：
+9、[vue-3d-model](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/hujiulong/vue-3d-model)：展示三维模型的 Vue 组件，支持模型操作和模型点击事件，能自动缩放模型到合适大小并校正偏移，目前支持 obj、stl、dae 和 json 格式的模型，示例代码：
 ```vue
 <template>
     <model-obj src="example/models/obj/LeePerrySmith.obj"></model-obj>
@@ -113,13 +143,13 @@ $(".selector").flatpickr(optional_config);
 </script>
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/vue-3d-model.gif)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/vue-3d-model.gif' style="max-width:80%; max-height=80%;"></img></p>
 
-10、[weweChat](https://github.com/trazyn/weweChat)：微信的第三方客户端。在完整实现 Web 微信功能的基础上，新增并优化部分功能，重设计整体 UI，提供更好的体验。Mac 安装命令：`brew cask install wewechat`
+10、[weweChat](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/trazyn/weweChat)：微信的第三方客户端。在完整实现 Web 微信功能的基础上，新增并优化部分功能，重设计整体 UI，提供更好的体验。Mac 安装命令：`brew cask install wewechat`
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/weweChat-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/weweChat-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-11、[puppeteer](https://github.com/GoogleChrome/puppeteer)：Google Chrome 团队开源的面向 Node.js 的，基于 DevTools 协议的远程 Headless Chrome 控制库，它可以生成网页截图、PDF、抓取单页应用与网页内容、进行自动化表单提交、界面测试与模拟键盘输入等功能。示例代码如下：
+11、[puppeteer](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/puppeteer/puppeteer)：Google Chrome 团队开源的面向 Node.js 的，基于 DevTools 协议的远程 Headless Chrome 控制库，它可以生成网页截图、PDF、抓取单页应用与网页内容、进行自动化表单提交、界面测试与模拟键盘输入等功能。示例代码如下：
 ```javascript
 // 访问 https://example.com 并将截图保存为 example.png
 const puppeteer = require('puppeteer');
@@ -134,7 +164,7 @@ const puppeteer = require('puppeteer');
 })();
 ```
 
-12、[SelectPage](https://github.com/TerryZ/SelectPage)：简洁优雅而功能强大的选择器，使用简单，适应各种UI环境，功能强大，丰富的参数和回调函数
+12、[SelectPage](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/TerryZ/SelectPage)：简洁优雅而功能强大的选择器，使用简单，适应各种UI环境，功能强大，丰富的参数和回调函数
 。它包含了 autocomplete、ajax 数据源、多选择 Tag、i18n 国际化，结果列表分页展示，键盘快捷操作等
 ```javascript
 //defined a array, the data returned at the server side is also used that format：
@@ -153,15 +183,19 @@ $('#selectpage').selectPage({
 });
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/SelectPage-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/SelectPage-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### PHP 项目
-13、[wooyun_public](https://github.com/hanc00l/wooyun_public)：乌云公开漏洞、知识库爬虫和搜索
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/wooyun-show-min.png)
+### PHP 项目
+13、[wooyun_public](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/hanc00l/wooyun_public)：乌云公开漏洞、知识库爬虫和搜索
 
-#### Python 项目
-14、[pygorithm](https://github.com/OmkarPathak/pygorithm)：一个帮助学习主要算法的库，可以通过理解这些算法的实现，提高自己的算法水平。冒泡排序示例：
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/18/img/wooyun-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Python 项目
+14、[pygorithm](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/OmkarPathak/pygorithm)：一个帮助学习主要算法的库，可以通过理解这些算法的实现，提高自己的算法水平。冒泡排序示例：
 ```python
 >>> from pygorithm.sorting import bubble_sort
 >>> my_list = [12, 4, 3, 5, 13, 1, 17, 19, 15]
@@ -170,7 +204,7 @@ $('#selectpage').selectPage({
 >>> [1, 3, 4, 5, 12, 13, 15, 17, 19]
 ```
 
-15、[newspaper](https://github.com/codelucas/newspaper)：强大的提取 Web 的内容、文章的库，支持多种语言，安装命令 `pip3 install newspaper3k`。示例代码：
+15、[newspaper](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/codelucas/newspaper)：强大的提取 Web 的内容、文章的库，支持多种语言，安装命令 `pip3 install newspaper3k`。示例代码：
 ```python
 >>> from newspaper import Article
 
@@ -219,7 +253,7 @@ datetime.datetime(2013, 12, 30, 0, 0)
 港特首梁振英就住宅违建事件道歉
 ```
 
-16、[faker](https://github.com/joke2k/faker)：用于生成假数据的库，支持多种语言，你值得拥有。示例代码：
+16、[faker](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/joke2k/faker)：用于生成假数据的库，支持多种语言，你值得拥有。示例代码：
 ```python
 fake.address()
 # '辽宁省雪市静安廉街b座 998259'
@@ -240,25 +274,36 @@ fake.province()
 # '湖北省'
 ```
 
-#### 其它
-17、[ctf-wiki](https://github.com/ctf-wiki/ctf-wiki)：一个自由的站点，主要包含了 CTF 的基础知识 、常见题型、解题思路以及常用工具等，希望可以帮助你更快地了解 CTF 竞赛以及网络安全相关知识
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-18、[china_area_mysql](https://github.com/kakuilan/china_area_mysql)：中国 5 级行政区域 MySQL 库
+### 其它
+17、[ctf-wiki](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/ctf-wiki/ctf-wiki)：一个自由的站点，主要包含了 CTF 的基础知识 、常见题型、解题思路以及常用工具等，希望可以帮助你更快地了解 CTF 竞赛以及网络安全相关知识
 
-19、[open_source_team](https://github.com/niezhiyang/open_source_team)：国内顶尖团队的开源地址
+18、[china_area_mysql](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/kakuilan/china_area_mysql)：中国 5 级行政区域 MySQL 库
 
-#### 机器学习
-20、[deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)：Deep Learning 中文版
+19、[open_source_team](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/niezhiyang/open_source_team)：国内顶尖团队的开源地址
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### 机器学习
+20、[deeplearningbook-chinese](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/exacity/deeplearningbook-chinese)：Deep Learning 中文版
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
 
+
+<p align="center">
+    <a href="https://github.com/521xueweihan/HelloGitHub/blob/master/content/17/HelloGitHub17.md">『上一期』</a> | <a href='https://github.com/521xueweihan/HelloGitHub/issues/899'>反馈和建议</a> | <a href="https://github.com/521xueweihan/HelloGitHub/blob/master/content/19/HelloGitHub19.md">『下一期』</a>
+</p>
 
 ---
+<p align="center">
+    👉 <a href='https://afdian.net/@HelloGitHub'>点击赞助</a> ｜ <a href='https://github.com/521xueweihan/HelloGitHub/issues/new'>点击推荐项目</a> 👈<br>
+    微信中搜：<strong>HelloGitHub</strong> 关注公众号<br>
+    "第一时间收到推送及更多内容"<br>
 
-## 换种方式阅读
-- **网站：** https://hellogithub.com
-- **GitBook：** https://gitbook.hellogithub.com
+</p>
+
 
 ## 声明
-如果你发现了好玩、有意义的开源项目 [点击这里](https://github.com/521xueweihan/HelloGitHub/issues/new) 分享你觉得有意思的项目。
-
-**欢迎转载，请注明出处和作者，同时保留声明。**
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width: 0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"></a><br>本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">署名-非商业性使用-禁止演绎 4.0 国际</a> 进行许可。

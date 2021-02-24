@@ -1,7 +1,8 @@
-# 《HelloGitHub》第 37 期
+# 《HelloGitHub》第 58 期
 >兴趣是最好的老师，**HelloGitHub** 就是帮你找到兴趣！
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg)
+<p align="center">
+    <img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg' style="max-width:100%;"></img>
+</p>
 
 ## 简介
 分享 GitHub 上有趣、入门级的开源项目。
@@ -14,190 +15,340 @@
 
 在浏览、参与这些项目的过程中，你将学习到**更多编程知识**、**提高编程技巧**、**找到编程的乐趣**。
 
-🎉 最后 [HelloGitHub](https://hellogithub.com) 这个项目就诞生了 🎉
+🎉 最后 HelloGitHub 这个项目就诞生了 🎉
 
----
-> **以下为本期内容**｜每个月 **28** 号发布最新一期｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#内容)
+## 目录
+- [C# 项目](#C-项目)
+- [C++ 项目](#C-项目-1)
+- [Go 项目](#Go-项目)
+- [Java 项目](#Java-项目)
+- [JavaScript 项目](#JavaScript-项目)
+- [PHP 项目](#PHP-项目)
+- [Python 项目](#Python-项目)
+- [Ruby 项目](#Ruby-项目)
+- [Swift 项目](#Swift-项目)
+- [其它](#其它)
+- [开源书籍](#开源书籍)
+- [机器学习](#机器学习)
 
-#### C# 项目
-1、[RemoteDesktopManage](https://github.com/xunki/RemoteDesktopManage)：基于 MSTSC 连接 Windows 远程桌面，并对其进行封装实现管理多个远程桌面配置的小工具。更加方便地管理多个远程桌面，实现同时远程、互相切换。相当于把多个 MSTSC 集合在一个软件里，并进行分组打标试用
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/RemoteDesktopManage.png)
+- [返回首页](https://github.com/521xueweihan/HelloGitHub#%E5%86%85%E5%AE%B9)
 
-#### C++ 项目
-2、[tinytetris]( https://github.com/taylorconor/tinytetris)：一个用 C++ 编写的终端版俄罗斯方块游戏。提供了两个版本的源码，分为注释版和库版，注释较多易于理解和学习
+**Tips**：如果文中的图刷不出来，可以向我们[反馈](https://github.com/521xueweihan/HelloGitHub/issues/899)。也可以访问 [官网](https://hellogithub.com/) 获取更好的阅读体验。
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/tinytetris.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/logo/weixin.png" style="max-width:30%;"></img><br>
+欢迎关注 HelloGitHub 公众号
+</p>
 
-#### Go 项目
-3、[overlord](https://github.com/bilibili/overlord)：基于 Go 语言编写的 memcache 和 redis&cluster 的代理及集群管理平台。致力于提供自动化高可用的缓存服务解决方案。自带图形界面的缓存集群管理程序，[安装步骤](https://github.com/bilibili/overlord/blob/master/doc/wiki-cn/platform-deploy.md)
+## 内容
+> **以下为本期内容**｜每个月 **28** 号发布最新一期
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/overlord.png)
+### C# 项目
+1、[EverythingToolbar](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/stnkl/EverythingToolbar)：把搜索和启动应用等功能整合到 Windows taskbar 的工具。效果如下图：
 
-4、[kratos](https://github.com/bilibili/kratos)：哔哩哔哩开源的一套 Go 微服务框架，包含大量微服务相关框架及工具。解决了 gin 在微服务场景下的一些适配和微服务本身的一系列生态，[快速开始](https://github.com/bilibili/kratos/blob/master/doc/wiki-cn/quickstart.md)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/EverythingToolbar.gif' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/kratos.gif)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-5、[docker-slim](https://github.com/docker-slim/docker-slim)：自动缩减 docker 镜像的体积的工具。大幅度缩减 docker 镜像的体积，方便分发，使用命令 `docker-slim build --http-probe your-name/your-app`。比如 Node.js 镜像缩减后的对比：
+### C++ 项目
+2、[ChordNova](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Chen-and-Sim/ChordNova)：一款开源免费的和弦生成工具。我不懂乐理，但单从这个软件的界面就感受到了专业，因为有很多乐理的名词😅
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/ChordNova.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Go 项目
+3、[containers-the-hard-way](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/shuveb/containers-the-hard-way)：用 Go 实现迷你 Docker，包含 dokcer 核心功能的开源项目。该项目仅用 Linux 系统接口实现了类似容器的功能，这些能够帮助你更好地了解容器的工作方式。如果你想更深入地理解容器，就参考本项目写一个迷你 Docker 吧
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/containers-the-hard-way.png' style="max-width:80%; max-height=80%;"></img></p>
+
+4、[vegeta](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/tsenart/vegeta)：基于 Go 语言的 HTTP 压测工具。目前市面上的压测工具已经很多了，但是今天推荐的这款惊艳到我点是下面这条命令执行后的效果（vegeta+jaggr+jplot），让我们一起来感受下吧
+```bash
+echo 'GET http://localhost:8080' | \
+    vegeta attack -rate 5000 -duration 10m | vegeta encode | \
+    jaggr @count=rps \
+          hist\[100,200,300,400,500\]:code \
+          p25,p50,p95:latency \
+          sum:bytes_in \
+          sum:bytes_out | \
+    jplot rps+code.hist.100+code.hist.200+code.hist.300+code.hist.400+code.hist.500 \
+          latency.p95+latency.p50+latency.p25 \
+          bytes_in.sum+bytes_out.sum
 ```
-from ubuntu:14.04 - 432MB => 14MB (缩减了 30.85 倍)
 
-from debian:jessie - 406MB => 25.1MB (缩减了 16.21 倍)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/vegeta.gif' style="max-width:80%; max-height=80%;"></img></p>
 
-from node:alpine - 66.7MB => 34.7MB (缩减了 1.92 倍)
-```
+5、[delve](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/go-delve/delve)：一款 Go 语言的调试工具。如果你还在像我一样用 `fmt.Println` 调试 go 的代码，就试试这个工具吧。万星的开源项目可不是开玩笑的，它上手简单并且支持多种方式调用，助你快速找到 Bug
 
-6、[beam](https://github.com/eBay/beam)：eBay 开源的分布式图数据库，少数依然支持 SparQL 的图数据库
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/delve.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### Java 项目
-7、[giffun](https://github.com/guolindev/giffun)：Android 端开源的 GIF 浏览和分享 App。该应用界面基于 Material Design 标准设计，围绕 GIF 为主题，建立了一个小型的社交系统。支持：
-- 查看热门搞笑的 GIF 图
-- 关注你喜欢的人，他的有趣分享尽收眼底
-- 一键发布你自己的 GIF 趣图
-- 对你感兴趣的内容点赞、点评
-- 喜欢的内容轻松转发至主流社交软件，传递你的快乐
+6、[rqlite](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/rqlite/rqlite)：用 Go 实现的基于 SQLite 轻量级、分布式关系数据库。如果你对分布式数据库的原理及实现感兴趣的话，这个项目真的是你入门这方面的不二之选，这个项目用 SQLite 作为存储引擎，让你可以把更多的精力放在理解分布式的知识上，尝试阅读下这个项目的文档，相信你会对它感兴趣的。设计图如下：
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/giffun.gif)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/rqlite.png' style="max-width:80%; max-height=80%;"></img></p>
 
-8、[cim](https://github.com/crossoverJie/cim)：一款面向开发者的 IM 即时通讯系统。命令行通讯工具，对开发者友好。提供了一些组件让开发者易于扩展和定制功能。架构图如下：
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/cim.jpeg)
+### Java 项目
+7、[JustAuth](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/justauth/JustAuth)：帮你搞定第三方登陆的 Java 开源组件。使用简单、接入方便，帮你随心所欲地接入第三方登陆，让登陆变得简单。目前已经支持十多个平台，还在持续扩充中
 
-9、[SpringAll](https://github.com/wuyouzhuguli/SpringAll)：Spring 系列源码教程，包含 Spring Boot、Spring Boot、Spring Cloud 等。Spring 是 Java 目前生命力最强的框架之一，通过资料与源码的配合，容易学习和上手
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/JustAuth.png' style="max-width:80%; max-height=80%;"></img></p>
 
-10、[seata](https://github.com/seata/seata)：一套一站式分布式事务解决方案。让分布式事务的使用像本地事务的使用一样，简单和高效，并逐步解决开发者们遇到的分布式事务方面的所有难题。分布式事务提出了很多年，但是一直没有很好的解决方案，要不就收费很贵。蚂蚁金服开源的 seata，将让分布式事务不在束之高阁，任何需要的人都可以使用它，推荐学习和使用。工作流程图如下：
+8、[java-design-patterns](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/iluwatar/java-design-patterns)：设计模式 Java 的最佳实践，出自开源社区大佬们之手。作为有梦想和追求的 Java 程序员，当然需要会一些设计模式啦。这个项目虽然是英文的但是先看代码和图，尝试理解含义那么英文描述也就能猜得八九不离十了。不要让英语作为你不努力的借口，努力变强吧！[在线阅读](https://java-design-patterns.com/)
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/seata.png)
+9、[apollo](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/ctripcorp/apollo)：携程开源的分布式配置中心。开箱即用理念发挥到极致，比如：服务器部分基于 Spring Boot 和 Spring Cloud 开发，运行方便无需额外的 Tomcat 应用容器。并且具备配置修改后即时生效、规范的权限、流程治理等特性，适用于微服务配置管理场景
 
-#### JavaScript 项目
-11、[xgplayer](https://github.com/bytedance/xgplayer)：由字节跳动西瓜视频开源的带解析器、能节省流量的 HTML5 视频播放器。可以作为 H5 组件、Vue、React 组件单独使用。它根据组件化的原则设计了一个独立的、可分离的 UI 组件。更重要的是，它不仅在 UI 层具有灵活性，而且在功能上也很大胆：它摆脱了视频加载、缓冲和格式支持。在播放器端加载视频、解析视频、转换格式，让不支持分段播放的 MP4 动态支持，这样就无须转换源视频的格式，服务器端也无其他开销。[官网](http://h5player.bytedance.com/)，示例代码：
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/apollo.jpg' style="max-width:80%; max-height=80%;"></img></p>
+
+10、[Logi-KafkaManager](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/didi/Logi-KafkaManager)：功能强大的 Kafka 集群监控和运维管理平台。强大到我一度以为它是付费的，如果你的公司用 Kafka 的话，可以试试主导把这个项目在公司内部用起来，那你离升职和加薪就不远了
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/Logi-KafkaManager.png' style="max-width:80%; max-height=80%;"></img></p>
+
+11、[Anki-Android](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/ankidroid/Anki-Android)：高效学习神器 Anki 安卓客户端。Anki 是一个帮助学习的记忆卡片软件，卡片正面是问题背面是答案，然后根据记忆公式帮你复习和记牢。[下载地址](https://github.com/ankidroid/Anki-Android/releases/tag/v2.14.3) 如果下载后不会用的话，本文点赞过 100 我出一份小白教程给大家上手这个神器
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/Anki-Android.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### JavaScript 项目
+12、[cloudbase-framework](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Tencent/cloudbase-framework)：腾讯开源的云原生一体化部署工具。一键将项目部署上云，不限制框架和语言
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/cloudbase-framework.png' style="max-width:80%; max-height=80%;"></img></p>
+
+13、[newbee-mall-vue3-app](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/newbee-ltd/newbee-mall-vue3-app)：基于 Vue 3.0 技术栈的电商网站前端开源项目。它麻雀虽小五脏俱全，包含模块：首页、类型分类、搜索、地址管理、登录注册等等，该有的基本上都有涉及到。对新手友好，在熟悉 Vue 3.x 的朋友也可以来看看
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/newbee-mall-vue3-app.png' style="max-width:80%; max-height=80%;"></img></p>
+
+14、[X6](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/antvis/X6)：AntV 旗下的图编辑引擎。提供了开箱即用的交互组件和简单易用的节点定制能力，从而能够快速完成流程图、DAG 图、ER 图等图应用。示例代码：
 ```javascript
-//  安装：$ npm install xgplayer
-// 第一步：<div id="vs"></div>
-// 第二步：
-import Player from 'xgplayer';
+import { Graph } from '@antv/x6';
 
-const player = new Player({
-    id: 'vs',
-    url: 'http://s2.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo.mp4'
-})
+const graph = new Graph({
+  container: document.getElementById('container'),
+  width: 800,
+  height: 600,
+  background: {
+    color: '#fffbe6', // 设置画布背景颜色
+  },
+  grid: {
+    size: 10,      // 网格大小 10px
+    visible: true, // 渲染网格背景
+  },
+});
 ```
 
-12、[zhui](https://github.com/zhui-team/zhui)：这是一款国风的组件库。好用的组件库千千万，有趣的创意万里挑一
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/X6.png' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/zhui.png)
+15、[hearthstone-battlegrounds-tools](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/hbt-org/hearthstone-battlegrounds-tools)：暴雪炉石传说游戏的记牌插件。不懂编程的小伙伴拿去用就好了，支持 Windows 和 macOS 系统。开发者的话，这是一整套完整的 Electronjs 开发流程，从多个渲染进程的管理、不同平台的差异化处理、版本的控制与发布等方面都做了细致的封装，学起来吧。功能上她还具有以下特性：
+- 🌴 当天战绩统计，历史战绩查询
+- 🎉 统计你所使用过的英雄，自动计算每个英雄的平均排名、选择率
+- 🙈 选择英雄时展示可选英雄的大数据选择率、平均排名等
+- 🃏 对局信息记录，记录对局过的对手阵容
+- ✈️ 一键拔线（可怕）
+- 等等
 
-13、[emoji-minesweeper](https://github.com/muan/emoji-minesweeper)：Emoji 符号的扫雷游戏。代码很简短，游戏创意很酷。寥寥 300+ 行代码实现该游戏，简短易于初学者学习
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/hearthstone-battlegrounds-tools.jpg' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/emoji-minesweeper.gif)
+16、[Multiavatar](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/multiavatar/Multiavatar)：生成人物头像的 JS 库。支持随机生成一个好看、独特、多文化的头像
 
-14、[squoosh](https://github.com/GoogleChromeLabs/squoosh)：谷歌开源的图片压缩工具。在保证图片质量的情况下快速压缩图片，支持多种图片格式。6.63M 的图片压缩后为 2.92M，使用起来简单方便
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/Multiavatar.png' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/squoosh.png)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-15、[leetcode](https://github.com/azl397985856/leetcode)：更加贴近前端的数据结构与算法的库。以 leetcode 作为切入点，详细讲解关于数据结构的方方面面， 并以JavaScript 语言作为解题语言。 后期会加入更多关于前端贴合的内容， 比如：`react fiber` 的实现和链表、`react hooks` 的实现和数组等等
-- 第一部分：leetcode 经典题目的解析，包括思路、关键点和具体的代码实现
-- 第二部分：对于数据结构与算法的总结
-- 第三部分：anki 卡片， 将 leetcode 题目按照一定的方式记录在 anki 中，方便大家记忆
+### PHP 项目
+17、[mochat](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/mochat-cloud/mochat)：一套开源的企业微信开发框架和管理系统。基于 PHP 开发的前后端分离、功能强大的企业微信管理平台
 
-#### Python 项目
-16、[ffmpeg-python](https://github.com/kkroening/ffmpeg-python)：FFmpeg 是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。这个是其 Python 的库，可以用该库操作、处理视频和音频。示例代码：
-```python
-# 水平翻转视频
-import ffmpeg
-stream = ffmpeg.input('input.mp4')
-stream = ffmpeg.hflip(stream)
-stream = ffmpeg.output(stream, 'output.mp4')
-ffmpeg.run(stream)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/mochat.jpg' style="max-width:80%; max-height=80%;"></img></p>
+
+18、[easy-sms](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/overtrue/easy-sms)：短信发送 PHP 组件。特点：
+- 支持目前市面多家服务商
+- 一套写法兼容所有平台
+- 简单配置即可灵活增减服务商
+- 内置多种服务商轮询策略、支持自定义轮询策略
+- 等等
+```php
+use Overtrue\EasySms\EasySms;
+
+$config = [
+    // HTTP 请求的超时时间（秒）
+    'timeout' => 5.0,
+
+    // 默认发送配置
+    'default' => [
+        // 网关调用策略，默认：顺序调用
+        'strategy' => \Overtrue\EasySms\Strategies\OrderStrategy::class,
+
+        // 默认可用的发送网关
+        'gateways' => [
+            'yunpian', 'aliyun',
+        ],
+    ],
+    // 可用的网关配置
+    'gateways' => [
+        'errorlog' => [
+            'file' => '/tmp/easy-sms.log',
+        ],
+        'yunpian' => [
+            'api_key' => '824f0ff2f71cab52936axxxxxxxxxx',
+        ],
+        'aliyun' => [
+            'access_key_id' => '',
+            'access_key_secret' => '',
+            'sign_name' => '',
+        ],
+        //...
+    ],
+];
+
+$easySms = new EasySms($config);
+
+$easySms->send(13188888888, [
+    'content'  => '您的验证码为: 6379',
+    'template' => 'SMS_001',
+    'data' => [
+        'code' => 6379
+    ],
+]);
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/ffmpeg-python.png)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-17、[pyright](https://github.com/Microsoft/pyright)：微软出品的 Python 静态类型检查工具。执行速度快，适合大型 Python 项目，引用一句话：动态语言一时爽，重构火葬场
+### Python 项目
+19、[Zappa](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Miserlou/Zappa)：Python 无服务框架，功能即服务（serverless）。你知道 serverless 是什么吗？不懂的老铁扣 1 🤝 我摊牌了我不懂这个玩意儿。直到我看到了 Zappa 这个项目，然后我的脑海里就几个字：甩手掌柜。用它开发完功能，几个命令打包上传到云服务平台，然后就不用管啦！不仅程序员喜欢它，老板也喜欢因为能够降低服务器成本（省钱）。来感受下“知识”的力量吧
 
-18、[pyxel](https://github.com/kitao/pyxel)：基于 Python 编程程语言实现的复古游戏引擎。示例代码：
-```python
-# 代码中导入 Pyxel 模块后
-import pyxel
-# 首先使用 init 函数指定窗口大小
-pyxel.init(160, 120)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/Zappa.gif' style="max-width:80%; max-height=80%;"></img></p>
 
-def update():
-    if pyxel.btnp(pyxel.KEY_Q):
-        pyxel.quit()
+20、[streamlit](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/streamlit/streamlit)：能够快速地把数据制作成可视化、交互页面的 Python 框架。分分钟让你的数据变成图表，并且该项目提供免费的共享服务平台帮你的项目上线，方便数据的共享和讨论
 
-def draw():
-    pyxel.cls(0)
-    pyxel.rect(10, 10, 20, 20, 11)
-# 最后然后使用 run 函数启动 Pyxel 应用程序
-pyxel.run(update, draw)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/streamlit.gif' style="max-width:80%; max-height=80%;"></img></p>
+
+21、[lastversion](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/dvershinin/lastversion)：帮你找到库或者软件最新版本的 Python 工具。它可以避开不同项目作者使用的不同风格的版本号，获取一个项目的最新版本号，下载或安装它们。本项目可用于 build system，比如自动更新脚本。支持从这些网站搜索：GitHub、GitLab、PyPI 等，确保版本最新和稳定
+```
+# 获取最新的 Linux 版本号和最新的 Wordpress 版本号
+lastversion linux
+# 作者的版本标签：v5.10
+# 本项目提供的版本标签：5.10
+lastversion wordpress
+# 作者的版本标签：5.6
+# 本项目提供的版本标签：5.6
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/pyxel.gif)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/lastversion.gif' style="max-width:80%; max-height=80%;"></img></p>
 
-#### Ruby 项目
-19、[githubchart-api](https://github.com/2016rshah/githubchart-api)：根据 GitHub 账号的贡献记录生成对应图像。一行代码，可以在任何网站展示自己在 GitHub 上的贡献活跃图标。示例代码：
+22、[xonsh](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/xonsh/xonsh)：支持 Python 赋能的 shell。如果你不会编写 shell 脚本，但是会 Python。那通过这个项目可以让你混用 shell 命令和 Python 语法，高效快速地完成你想要的功能
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/xonsh.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Ruby 项目
+23、[spree](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/spree/spree)：基于 Ruby on Rails 实现的大而全的电子商城开源项目。功能齐全项目结构清晰：
+- spree_api：REST API 接口
+- spree_frontend：移动优先，可自定义的店面
+- spree_backend：功能丰富的管理面板
+- spree_cmd：开发人员的命令行工具
+- spree_core：数据层、服务和邮件、基本组件
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/spree.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Swift 项目
+24、[mas](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/mas-cli/mas)：Mac App Store 命令行版
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/mas.png' style="max-width:80%; max-height=80%;"></img></p>
+
+25、[Moya](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Moya/Moya)：基于 Alamofire 的轻量级 Swift 网络层框架。它提供了网络抽象层，使用起来足够简单，能够方便地与 RXSwift、PromiseKit、ObjectMapper 结合，轻松地应对常见的开发任务。同时也非常全面，应对复杂任务也同样容易。最后 Moya 有一个很棒的社区，贡献者们提供了很多实用的扩展
+```swift
+provider = MoyaProvider<GitHub>()
+provider.request(.zen) { result in
+    switch result {
+    case let .success(moyaResponse):
+        let data = moyaResponse.data
+        let statusCode = moyaResponse.statusCode
+        // do something with the response data or statusCode
+    case let .failure(error):
+        // this means there was a network failure - either the request
+        // wasn't sent (connectivity), or no response was received (server
+        // timed out).  If the server responds with a 4xx or 5xx error, that
+        // will be sent as a ".success"-ful response.
+    }
+}
 ```
-<img src="http://ghchart.rshah.org/用户名" alt="Github commit chart" />
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/Moya.png' style="max-width:80%; max-height=80%;"></img></p>
+
+26、[MTMR](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Toxblh/MTMR)：自定义 TouchBar 的应用。你问我体验如何？我没钱买带 TouchBar 的电脑啊，你装上我看看就行了
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/MTMR.png' style="max-width:80%; max-height=80%;"></img></p>
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### 其它
+27、[game-programmer](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/miloyip/game-programmer)：游戏程序员的学习路径图。一位游戏开发大神开源的项目，希望能够帮助向往游戏开发的你 or 你的孩子，走上游戏开发这条“不归路”。[中文](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.svg)
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/game-programmer.png' style="max-width:80%; max-height=80%;"></img></p>
+
+28、[theia](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/eclipse-theia/theia)：Eclipse 开源的 IDE 工具。我岁数大了，用惯了一个 IDE 就不想换了，喜欢尝鲜的小伙伴可以去把玩一下。看介绍像是一个拥抱开源，与 VS Code 功能相近的开发工具
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/theia.png' style="max-width:80%; max-height=80%;"></img></p>
+
+29、[luarocks](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/luarocks/luarocks)：Lua 包管理工具。支持三大平台，安装和使用如下：
+```
+$ wget https://luarocks.org/releases/luarocks-3.5.0.tar.gz
+$ tar zxpf luarocks-3.5.0.tar.gz
+$ cd luarocks-3.5.0
+$ ./configure && make && sudo make install
+$ sudo luarocks install luasocket
+$ lua
+Lua 5.3.5 Copyright (C) 1994-2018 Lua.org, PUC-Rio
+> require "socket"
 ```
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/githubchart-api.png)
+30、[Ad-papers](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/wzhe06/Ad-papers)：计算广告相关论文、学习资料和业界分享集合
 
-20、[guides](https://github.com/thoughtbot/guides)：Ruby 编程风格指南。统一的格式风格有利于代码的维护和迭代，对于 Ruby 使用者而言帮助极大
+31、[awesome-seo](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/madawei2699/awesome-seo)：有关 Google SEO 和流量变现资料的项目。该项目是作者学习 SEO 过程中整理的权威资料，推荐给有个人网站的小伙伴们
 
-#### Swift 项目
-21、[GodEye](https://github.com/zixun/GodEye)：一行代码自动显示日志、崩溃、网络、ANR、泄漏、CPU、文件夹等信息，就像上帝睁开眼睛一样
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/awesome-seo.png' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/GodEye.png)
+32、[makeaplan_public](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/DuanJiaNing/makeaplan_public)：使用 Flutter 和 Go 开发的「制定计划 APP」。帮助用户记录和追踪自己的计划，辅助用户完成自己的目标。手机端用的是 Flutter 后端用 Go 实现，服务器和客户端通过 ProtoBuffer+grpc 进行通信。可作为学习 Flutter 和 Go 的实战项目
 
-#### 其它
-22、[CS-Notes](https://github.com/CyC2018/CS-Notes)：该项目整理、聚集了技术面试必备的基础知识。省去了查找资料的时间，同时也是一份很好的学习资料
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/makeaplan_public.png' style="max-width:80%; max-height=80%;"></img></p>
 
-23、[zju-icicles](https://github.com/QSCTech/zju-icicles)：浙江大学各种课程相关资源集合。包含：课程、作业、答案、复习资料、选课攻略等，是浙大在校生的必备资源，对于有考研想法的小伙伴而言也是很好的资源
+33、[free-font](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/wordshub/free-font)：免费可商用的字体集合。这个项目收录的都是免费可商用的字体，并且仔细地标记出了商用时是否需要获取授权等细节
 
-24、[awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)：一个系统的阅读列表，描述了可扩展、高可用、高性能的大型系统背后的东西。每部分都是基于真实案例，讲述了如何搭建一个可扩展、高可用、高性能的大型系统，案例都是来自于经过数百万甚至数十亿用户实战检验的系统。对于所有工程师而言都是一个很好的学习资料，开卷有益
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-25、[awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)：该项目收集了微信小程序开发过程中会使用到的资料、问题以及第三方组件库。随着微信小程序的市场越来越大，很多公司也专门以制作小程序为业，不论对感兴趣的人还是想自己动手做小程序的人而言，这份合集省去了不少查找资料的时间
+### 开源书籍
+34、[DeepLearning-500-questions](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/scutan90/DeepLearning-500-questions)：《深度学习 500 问》AI 工程师面试知识点的书籍。内容涵盖深度学习的知识点及各大公司常见的笔试题
 
-26、[REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT)：清华大学计算机系课程相关资源集合。内容丰富，包含从大一到大四，跟着清华学子一起学习传说中高校的课程吧
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-#### 开源书籍
-27、[prometheus-book](https://github.com/yunlzheng/prometheus-book)：《Prometheus 操作指南》，[在线阅读](https://yunlzheng.gitbook.io/prometheus-book/parti-prometheus-ji-chu/quickstart/why-monitor)
+### 机器学习
+35、[nanodet](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/RangiLyu/nanodet)：移动端的轻量级 Anchor-Free 目标检测模型。具有体积小（1.8 MB）、速度快（10.23 ms）、便于训练（硬件要求低）、部署简单（安卓示例）等优点
 
-28、[the-craft-of-selfteaching](https://github.com/selfteaching/the-craft-of-selfteaching)：《自学是门手艺》一个编程入门者的自学心得。如今学习资源很多，对于初学者入门而言，最难的是如何自学，阅读本书打开编程自学大门吧
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/nanodet.jpg' style="max-width:80%; max-height=80%;"></img></p>
 
-#### 教程
-29、[nginx-quick-reference](https://github.com/trimstray/nginx-quick-reference)：该项目描述了如何提高 Nginx 的性能、安全性等方面的步骤，让你的网站在 SSL Labs 的评级到达 A+
+36、[DeepMoji](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/bfelbo/DeepMoji)：通过深度学习把自然语言转化成 emoji 表情的项目。用机器学习来了解文字表达的情感，最后返回几个感情相近的 emoji 表情。该项目有趣且易于学习，包含机器学习项目该有的所有内容：示例、模型、数据、测试、源码等
 
-#### 机器学习
-30、[openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：基于卷积神经网络和监督学习的开源库，可以实现人的面部、躯干和四肢甚至手指的跟踪。适用于多人，且标记准确，同时具有较好的鲁棒性
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img2/master/hellogithub/58/img/DeepMoji.png' style="max-width:80%; max-height=80%;"></img></p>
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/openpose.gif)
-
-31、[FaceDetection-DSFD](https://github.com/TencentYoutuResearch/FaceDetection-DSFD)：腾讯优图的双分支人脸检测器全新算法，该算法已经被计算机视觉顶级会议 CVPR 2019 接收。优图此次提出的 DSFD 人脸检测算法，主要有 3 点创新：
-1. 新的特征增强模块（FEM：Feature Enhance Module）
-2. 分层锚点渐进式的代价函数监督（PLA：Progressive Anchor Loss）
-3. 改进的锚点匹配策略（Improved Anchor Matching Strategy）
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/FaceDetection-DSFD.png)
-
-32、[SPADE](https://github.com/NVlabs/SPADE)：英伟达（NVIDIA）新开源的绘图工具。利用生成对抗网络，根据几根简单的线条就能生成栩栩如生的图像
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/SPADE.gif)
-
-33、[LearningToPaint](https://github.com/hzwer/LearningToPaint)：一个深度强化学习项目，研究如何让机器用画笔画画。也可体验制作自己的绘画或根据一张图片生成一整个绘画过程
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/37/img/LearningToPaint.gif)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
 
+
+<p align="center">
+    <a href="https://github.com/521xueweihan/HelloGitHub/blob/master/content/57/HelloGitHub57.md">『上一期』</a> | <a href='https://github.com/521xueweihan/HelloGitHub/issues/899'>反馈和建议</a> | 『下一期』
+</p>
 
 ---
+<p align="center">
+    👉 <a href='https://afdian.net/@HelloGitHub'>点击赞助</a> ｜ <a href='https://github.com/521xueweihan/HelloGitHub/issues/new'>点击推荐项目</a> 👈<br>
+    关注公众号：<strong>HelloGitHub</strong><br>
+    "第一时间收到推送及更多内容"<br>
 
-## 换种方式阅读
-- **网站：** https://hellogithub.com
-- **GitBook：** https://gitbook.hellogithub.com
+</p>
+
 
 ## 声明
-如果你发现了好玩、有意义的开源项目 [点击这里](https://github.com/521xueweihan/HelloGitHub/issues/new) 分享你觉得有意思的项目。
-
-**欢迎转载，请注明出处和作者，同时保留声明。**
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width: 0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"></a><br>本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">署名-非商业性使用-禁止演绎 4.0 国际</a> 进行许可。

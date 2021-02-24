@@ -1,7 +1,8 @@
 # 《HelloGitHub》第 08 期
 >兴趣是最好的老师，**HelloGitHub** 就是帮你找到兴趣！
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg)
+<p align="center">
+    <img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/01/img/hello-github.jpg' style="max-width:100%;"></img>
+</p>
 
 ## 简介
 分享 GitHub 上有趣、入门级的开源项目。
@@ -14,13 +15,34 @@
 
 在浏览、参与这些项目的过程中，你将学习到**更多编程知识**、**提高编程技巧**、**找到编程的乐趣**。
 
-🎉 最后 [HelloGitHub](https://hellogithub.com) 这个项目就诞生了 🎉
+🎉 最后 HelloGitHub 这个项目就诞生了 🎉
 
----
-> **以下为本期内容**｜每个月 **28** 号发布最新一期｜[点击查看往期内容](https://github.com/521xueweihan/HelloGitHub#内容)
+## 目录
+- [C# 项目](#C-项目)
+- [C++ 项目](#C-项目-1)
+- [Go 项目](#Go-项目)
+- [Java 项目](#Java-项目)
+- [JavaScript 项目](#JavaScript-项目)
+- [Objective-C 项目](#Objective-C-项目)
+- [Python 项目](#Python-项目)
+- [Ruby 项目](#Ruby-项目)
+- [其它](#其它)
 
-#### C# 项目
-1、[Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)：Newtonsoft.Json 是一款 .NET 平台中开源的 JSON 序列化和反序列化类库，示例代码：
+
+- [返回首页](https://github.com/521xueweihan/HelloGitHub#%E5%86%85%E5%AE%B9)
+
+**Tips**：如果文中的图刷不出来，可以向我们[反馈](https://github.com/521xueweihan/HelloGitHub/issues/899)。也可以访问 [官网](https://hellogithub.com/) 获取更好的阅读体验。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/logo/weixin.png" style="max-width:30%;"></img><br>
+欢迎关注 HelloGitHub 公众号
+</p>
+
+## 内容
+> **以下为本期内容**｜每个月 **28** 号发布最新一期
+
+### C# 项目
+1、[Newtonsoft.Json](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/JamesNK/Newtonsoft.Json)：Newtonsoft.Json 是一款 .NET 平台中开源的 JSON 序列化和反序列化类库，示例代码：
 ```
 public class Account
 {
@@ -56,8 +78,10 @@ string json = JsonConvert.SerializeObject(account, Formatting.Indented);
 Console.WriteLine(json);
 ```
 
-#### C++ 项目
-2、[libco](https://github.com/Tencent/libco)：腾讯的开源项目——libco 是微信后台大规模使用的 C/C++ 协程库，2013 年至今稳定运行在微信后台的数万台机器上。
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### C++ 项目
+2、[libco](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Tencent/libco)：腾讯的开源项目——libco 是微信后台大规模使用的 C/C++ 协程库，2013 年至今稳定运行在微信后台的数万台机器上。
 - 无需侵入业务逻辑，把多进程、多线程服务改造成协程服务，并发能力得到百倍提升
 - 支持 CGI 框架，轻松构建 Web 服务
 - 支持 gethostbyname、mysqlclient、ssl 等常用第三方库
@@ -68,16 +92,20 @@ Console.WriteLine(json);
     - 语言级别的 lambda 实现，结合协程原地编写并执行后台异步任务
     - 基于 epoll/kqueue 实现的小而轻的网络框架，基于时间轮盘实现的高性能定时器
 
-#### Go 项目
-3、[kcptun](https://github.com/xtaci/kcptun)：也许是世界上最快的 UDP 传输工具，支持 macOS/Linux/Windows/FreeBSD/ARM/Raspberry Pi/OpenWrt。
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Go 项目
+3、[kcptun](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/xtaci/kcptun)：也许是世界上最快的 UDP 传输工具，支持 macOS/Linux/Windows/FreeBSD/ARM/Raspberry Pi/OpenWrt。
 
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/kcptun-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/kcptun-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### Java 项目
-4、[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)：Android 开发人员不得不收集的代码，[中文介绍](https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-5、[DanmakuFlameMaster](https://github.com/Bilibili/DanmakuFlameMaster)：Bilibili 开源的，Android 开源弹幕引擎·烈焰弹幕使，特性：
+### Java 项目
+4、[AndroidUtilCode](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Blankj/AndroidUtilCode)：Android 开发人员不得不收集的代码，[中文介绍](https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md)
+
+5、[DanmakuFlameMaster](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/bilibili/DanmakuFlameMaster)：Bilibili 开源的 Android 开源弹幕引擎·烈焰弹幕使。特性：
 - 使用多种方式(View/SurfaceView/TextureView)实现高效绘制
 - 该站 XML 弹幕格式解析
 - 基础弹幕精确还原绘制
@@ -90,18 +118,22 @@ Console.WriteLine(json);
 - 支持多种弹幕参数设置
 - 支持多种方式的弹幕屏蔽
 
-#### JavaScript 项目
-6、[WeFlow](https://github.com/weixin/WeFlow)：微信出品的一个高效、强大、跨平台的 Web 前端开发工作流工具，[官网](https://weflow.io/)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### JavaScript 项目
+6、[WeFlow](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/Tencent/WeFlow)：微信出品的一个高效、强大、跨平台的 Web 前端开发工作流工具，[官网](https://weflow.io/)
 
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/weflow-show-min.jpeg)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/weflow-show-min.jpeg' style="max-width:80%; max-height=80%;"></img></p>
 
-7、[atrament.js](https://github.com/jakubfiala/atrament.js)：极小的 JavaScript 画板，[在线演示](http://fiala.uk/atrament.js/demo/)
+7、[atrament.js](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/jakubfiala/atrament.js)：极小的 JavaScript 画板，[在线演示](http://fiala.uk/atrament.js/demo/)
 
-8、[weex](https://github.com/apache/incubator-weex)：移动端，跨平台前端框架，[详细的中文档](https://weex-project.io/cn/guide/)
+8、[incubator-weex](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/apache/incubator-weex)：移动端，跨平台前端框架，[详细的中文档](https://weex-project.io/cn/guide/)
 
-#### Objective-C 项目
-9、[aria2gui](https://github.com/yangshun1029/aria2gui)：Aria2 的 Mac 客户端（下载工具），[介绍、使用方法](http://www.jianshu.com/p/1290f8e7b326)，特点：
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Objective-C 项目
+9、[aria2gui](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/yangshun1029/aria2gui)：Aria2 的 Mac 客户端（下载工具），[介绍、使用方法](http://www.jianshu.com/p/1290f8e7b326)，特点：
 - 集成了 aria2，运行后即完成配置工作
 - 多线程下载
 - 未完成任务退出可以自动保存
@@ -111,20 +143,22 @@ Console.WriteLine(json);
 - 任务完成通知
 
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/aria2gui-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/aria2gui-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### Python 项目
-10、[reddit](https://github.com/reddit/reddit)：[reddit.com](https://www.reddit.com/) 网站的源码，通过这个项目，可以学习 Python 在构建大型项目中的使用、项目结构、代码风格、Python 技巧的使用方法等。[安装教程](https://github.com/reddit/reddit/wiki/Install-guide)
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/reddit-show-min.jpg)
-
-11、[httpstat](https://github.com/reorx/httpstat)：httpstat 美化了 `curl` 的结果，使得结果更加可读。同时它无依赖、兼容 Python3、一共才 300 多行。还可以显示 HTTP 请求的每个过程中消耗的时间，如下图：
+### Python 项目
+10、[reddit](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/reddit-archive/reddit)：[reddit.com](https://www.reddit.com/) 网站的源码，通过这个项目，可以学习 Python 在构建大型项目中的使用、项目结构、代码风格、Python 技巧的使用方法等。[安装教程](https://github.com/reddit/reddit/wiki/Install-guide)
 
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/httpstat-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/reddit-show-min.jpg' style="max-width:80%; max-height=80%;"></img></p>
 
-12、[PyMySQL](https://github.com/PyMySQL/PyMySQL)：纯 Pyton 写的 MySQL 库，纯 Python 的好处就是可以运行在任何装有 Python 解释器（CPython、PyPy、IronPython）的平台上。相对于 [MySQLdb](https://github.com/farcepest/MySQLdb1) 性能几乎一样，使用方法也一样，但是 **PyMySQL 安装方法极其简单**——`pip install PyMySQL`，PyMySQL 使用示例代码：
+11、[httpstat](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/reorx/httpstat)：httpstat 美化了 `curl` 的结果，使得结果更加可读。同时它无依赖、兼容 Python3、一共才 300 多行。还可以显示 HTTP 请求的每个过程中消耗的时间，如下图：
+
+
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/httpstat-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
+
+12、[PyMySQL](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/PyMySQL/PyMySQL)：纯 Pyton 写的 MySQL 库，纯 Python 的好处就是可以运行在任何装有 Python 解释器（CPython、PyPy、IronPython）的平台上。相对于 [MySQLdb](https://github.com/farcepest/MySQLdb1) 性能几乎一样，使用方法也一样，但是 **PyMySQL 安装方法极其简单**——`pip install PyMySQL`，PyMySQL 使用示例代码：
 ```
 # 下面为例子需要的数据库的建表语句
 CREATE TABLE `users` (
@@ -168,34 +202,45 @@ finally:
     connection.close()  # 操作完数据库一要记得调用 close 方法，关闭连接
 ```
 
-#### Ruby 项目
-13、[discourse](https://github.com/discourse/discourse)：Ruby 语言写的论坛，百分之百开源、免费。
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
+
+### Ruby 项目
+13、[discourse](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/discourse/discourse)：Ruby 语言写的论坛，百分之百开源、免费。
 
 
-![](https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/discourse-show-min.png)
+<p align="center"><img src='https://raw.githubusercontent.com/521xueweihan/img/master/hellogithub/08/img/discourse-show-min.png' style="max-width:80%; max-height=80%;"></img></p>
 
-#### 其它
-14、[How-To-Ask-Questions-The-Smart-Way](https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)：提问的智慧，提出一个好的问题是解决问题的关键
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
-15、[jstraining](https://github.com/ruanyf/jstraining)：阮一峰写的全栈工程师培训材料
+### 其它
+14、[How-To-Ask-Questions-The-Smart-Way](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)：提问的智慧，提出一个好的问题是解决问题的关键
 
-16、[PTVS](https://github.com/Microsoft/PTVS)：Visual Studio 下的 Python 开发插件
+15、[jstraining](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/ruanyf/jstraining)：阮一峰写的全栈工程师培训材料
 
-17、[the-swift-programming-language-in-chinese](https://github.com/numbbbbb/the-swift-programming-language-in-chinese)：中文版 Apple 官方 Swift 教程《The Swift Programming Language》
+16、[PTVS](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/microsoft/PTVS)：Visual Studio 下的 Python 开发插件
 
-18、[styleguide](https://github.com/fex-team/styleguide)：百度前端研发团队的文档与源码编写风格
+17、[the-swift-programming-language-in-chinese](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese)：中文版 Apple 官方 Swift 教程《The Swift Programming Language》
 
-19、[macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)：MacOS 的安全和隐私指南，[中文翻译版](https://github.com/xitu/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md)
+18、[styleguide](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/fex-team/styleguide)：百度前端研发团队的文档与源码编写风格
+
+19、[macOS-Security-and-Privacy-Guide](https://hellogithub.com/periodical/statistics/click/?target=https://github.com/drduh/macOS-Security-and-Privacy-Guide)：MacOS 的安全和隐私指南，[中文翻译版](https://github.com/xitu/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md)
+
+<p align="center"><a href="#目录">🔙 返回目录 🔙</a></p><br>
 
 
+
+<p align="center">
+    <a href="https://github.com/521xueweihan/HelloGitHub/blob/master/content/07/HelloGitHub07.md">『上一期』</a> | <a href='https://github.com/521xueweihan/HelloGitHub/issues/899'>反馈和建议</a> | <a href="https://github.com/521xueweihan/HelloGitHub/blob/master/content/09/HelloGitHub09.md">『下一期』</a>
+</p>
 
 ---
+<p align="center">
+    👉 <a href='https://afdian.net/@HelloGitHub'>点击赞助</a> ｜ <a href='https://github.com/521xueweihan/HelloGitHub/issues/new'>点击推荐项目</a> 👈<br>
+    微信中搜：<strong>HelloGitHub</strong> 关注公众号<br>
+    "第一时间收到推送及更多内容"<br>
 
-## 换种方式阅读
-- **网站：** https://hellogithub.com
-- **GitBook：** https://gitbook.hellogithub.com
+</p>
+
 
 ## 声明
-如果你发现了好玩、有意义的开源项目 [点击这里](https://github.com/521xueweihan/HelloGitHub/issues/new) 分享你觉得有意思的项目。
-
-**欢迎转载，请注明出处和作者，同时保留声明。**
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width: 0" src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png"></a><br>本作品采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">署名-非商业性使用-禁止演绎 4.0 国际</a> 进行许可。
